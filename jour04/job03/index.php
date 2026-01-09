@@ -12,7 +12,6 @@
 
         <?php
         $nombre = count($_POST);
-
         if ($nombre > 0) {
             echo "Vous avez envoyé $nombre argument(s).<br>";
             print_r($_POST); 
