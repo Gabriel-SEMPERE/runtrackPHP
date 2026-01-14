@@ -1,7 +1,7 @@
 <?php
 if (isset($_POST['reset'])) {
     $nbvisites = 0;
-    setcookie('nbvisites', $nbvisites, time() + 3600 * 24 * 30);
+    setcookie('nbvisites', $nbvisites, time() + 3600);
 } 
 else {
     if (isset($_COOKIE['nbvisites'])) {
